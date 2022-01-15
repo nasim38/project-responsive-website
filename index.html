@@ -13,6 +13,11 @@
     />
     <!-- css file styling -->
     <link rel="stylesheet" href="./styles/style.css" />
+    <!-- font awesome integration -->
+    <script
+      src="https://kit.fontawesome.com/fbc7367ffa.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Project Responsive Website</title>
   </head>
   <body>
@@ -21,15 +26,39 @@
     </nav>
     <main>
       <section id="intro-section">
-        <h1>Start your journey as</h1>
-        <h1>Influencer</h1>
-        <p>
-          <strong
-            >This is where you can get all the gears that can make you a real
-            deal of an Infulencer!</strong
-          >
-        </p>
-        <a class="main-button" href="#">Prebook now </a>
+        <div class="half-section">
+          <h1>Start your journey as</h1>
+          <h1>Influencer</h1>
+          <p>
+            <strong
+              >This is where you can get all the gears that can make you a real
+              deal of an Infulencer!</strong
+            >
+          </p>
+          <a class="main-button" href="#"
+            >Prebook now <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
+        <div class="half-section">
+          <img
+            src="./images/Circle design.svg"
+            alt="intro-section main image"
+          />
+        </div>
+      </section>
+      <section id="collections">
+        <h2>Popular Collections</h2>
+        <div class="collection-item">
+          <div class="item-image">
+            <img src="./images/drone.png" alt="drone image" />
+          </div>
+          <div class="item-info">
+            <h3>Drone camera</h3>
+            <h4>Price</h4>
+            <div class="rating">rating</div>
+            <div class="item-details">Item Details are here</div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
